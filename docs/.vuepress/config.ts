@@ -27,14 +27,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '前端',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        text: '跨平台框架',
+        link: '/cross-platform/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
+            text: '混合开发',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: 'Flutter', link: '/pages/8143cc480faf9a11/' },
+              { text: 'ReactNative', link: '/pages/8143cc480faf9a12/' },
+              { text: 'Weex', link: '/pages/8143cc480faf9a13/' },
             ],
           },
           {
@@ -66,11 +68,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '页面',
+        text: '原生Android',
         link: '/ui/',
         items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { text: '四大组件', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'UI/自定义View/动画', link: '/pages/0a83b083bdf257cb/' },
+          { text: '源码分析', link: '/pages/0a83b083bdf257ca/' },
         ],
       },
       {
@@ -169,7 +172,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://portrait.gitee.com/uploads/avatars/user/669/2008093_kehuafu_1578964129.png',
+      avatar: 'https://fastly.jsdelivr.net/gh/yuanxiaoxiong/image-hosting@master/picx/logo.56ood9ew1ik0.webp',
       name: '猿小熊',
       slogan: '我们@友猿相见ฅʕ•̫͡•ʔฅ',
     },
@@ -198,9 +201,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 页脚信息
     footer: {
-      createYear: 2022, // 博客创建年份
+      createYear: 2020, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'YuanXiaoXiong | <a href="https://github.com/yuanxiaoxiong/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -225,8 +228,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
       },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
-    ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }], // 移动浏览器主题颜色 #11a8cd
     // [
     //   'script',
     //   {
