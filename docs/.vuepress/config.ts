@@ -27,63 +27,55 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '跨平台框架',
+        text: 'Android',
+        link: '/android/',
+        items: [
+          {
+            text: '开发者路线图',
+            items: [
+              { text: '2019', link: '/pages/d1d58c/' },
+            ],
+          },
+          {
+            text: '学习笔记',
+            items: [
+              { text: '四大组件', link: '/pages/9e7cdf/' },
+            ],
+          },
+          {
+            text: '源码分析',
+            items: [
+              { text: 'Glide源码分析', link: '/pages/9e7cdf/' },
+            ],
+          },
+        ],
+      },
+      {
+        text: '跨平台技术',
         link: '/cross-platform/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
             text: '混合开发',
             items: [
-              { text: 'Flutter', link: '/pages/8143cc480faf9a11/' },
-              { text: 'ReactNative', link: '/pages/8143cc480faf9a12/' },
-              { text: 'Weex', link: '/pages/8143cc480faf9a13/' },
+              { text: 'Flutter', link: '/pages/4d5713/' },
+              { text: 'ReactNative', link: '/pages/cef7c4/' },
+              { text: 'Weex', link: '/pages/0fcf39/' },
             ],
           },
           {
-            text: '学习笔记',
+            text: 'Flutter学习笔记',
             items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
+              { text: '《Dart基础教程》', link: '/note/dart/' },
             ],
           },
         ],
       },
       {
-        text: '原生Android',
-        link: '/ui/',
-        items: [
-          { text: '四大组件', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'UI/自定义View/动画', link: '/pages/0a83b083bdf257cb/' },
-          { text: '源码分析', link: '/pages/0a83b083bdf257ca/' },
-        ],
-      },
-      {
-        text: '技术',
+        text: 'Web3D引擎',
         link: '/technology/',
         items: [
           { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
       {
@@ -94,19 +86,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '面试', link: '/pages/aea6571b7a8bae86/' },
           { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
           { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
         ],
       },
       { text: '关于', link: '/about/' },
-      {
-        text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/',
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
-      },
       {
         text: '索引',
         link: '/archives/',
@@ -179,7 +161,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     social: {
-      // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
+      // iconfontCssFile: '//at.alifastly.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
         {
           iconClass: 'icon-youjian',
@@ -201,7 +183,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 页脚信息
     footer: {
-      createYear: 2020, // 博客创建年份
+      createYear: 2019, // 博客创建年份
       copyrightInfo:
         'YuanXiaoXiong | <a href="https://github.com/yuanxiaoxiong/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
@@ -215,7 +197,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    // htmlModules
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]

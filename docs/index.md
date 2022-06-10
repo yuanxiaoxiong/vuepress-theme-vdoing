@@ -1,24 +1,24 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 猿小熊
-tagline: 沉淀，积累，时间会给你惊喜。
+heroText: 友猿相见
+tagline: 沉淀，积累，分享，时间会给你惊喜。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 跨平台框架
-    details: Flutter、ReactNative、Weex等跨平台框架
-    link: /cross-platform/ # 可选
-    imgUrl: /img/web.png # 可选
   - title: Android
     details: 四大组件、UI/自定义View/动画、源码分析等相关技术
-    link: /ui/
+    link: /android/
     imgUrl: /img/ui.png
-  - title: 技术
-    details: 技术文档、教程、技巧、总结等文章
-    link: /technology/
+  - title: 跨平台技术
+    details: Flutter、ReactNative、Weex等跨平台技术
+    link: /cross-platform/ # 可选
+    imgUrl: /img/web.png # 可选
+  - title: Web3D引擎
+    details: Three.js、Oasis、Aframe、Playcanvas等Web3D引擎
+    link: /web3d/
     imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
