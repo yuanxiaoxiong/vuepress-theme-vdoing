@@ -16,9 +16,9 @@ features: # 可选的
     details: Flutter、ReactNative、Weex等跨平台技术
     link: /cross-platform/ # 可选
     imgUrl: /img/web.png # 可选
-  - title: Web3D引擎
-    details: Three.js、Oasis、Aframe、Playcanvas等Web3D引擎
-    link: /web3d/
+  - title: 技术文档
+    details: 记录相关知识要点，方便温故而知新
+    link: /technology/
     imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

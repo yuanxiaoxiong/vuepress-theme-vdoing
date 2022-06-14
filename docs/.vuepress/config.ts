@@ -33,19 +33,24 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '开发者路线图',
             items: [
-              { text: '2019', link: '/pages/d1d58c/' },
+              { text: '2022', link: '/pages/8f8629/' },
             ],
           },
           {
             text: '学习笔记',
             items: [
-              { text: '四大组件', link: '/pages/9e7cdf/' },
+              { text: '《Android开发艺术探索》', link: '/pages/9e7cdf/' },
+              { text: '《APP研发录》', link: '/pages/9e7cdf/' },
+              { text: '《Java编程思想》', link: '/pages/9e7cdf/' },
+              { text: '《深入理解java虚拟机》', link: '/pages/9e7cdf/' },
             ],
           },
           {
             text: '源码分析',
             items: [
               { text: 'Glide源码分析', link: '/pages/9e7cdf/' },
+              { text: 'OkHttp源码分析', link: '/pages/9e7cdf/' },
+              { text: 'Retrofit源码分析', link: '/pages/9e7cdf/' },
             ],
           },
         ],
@@ -72,20 +77,28 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: 'Web3D引擎',
+        text: '技术文档',
         link: '/technology/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+          { text: 'Java基础', link: '/pages/93df83/' },
+          { text: 'Java并发', link: '/pages/9a7ee40fc232253e/' },
+          { text: 'Java虚拟机', link: '/pages/9a7ee40fc232253e/' },
+          { text: '设计模式', link: '/pages/9a7ee40fc232253e/' },
+          { text: '网络', link: '/pages/9a7ee40fc232253e/' },
+          { text: '操作系统', link: '/pages/9a7ee40fc232253e/' },
+          { text: '数据结构', link: '/pages/9a7ee40fc232253e/' },
+          { text: '算法', link: '/pages/9a7ee40fc232253e/' },
+
         ],
       },
       {
         text: '更多',
         link: '/more/',
         items: [
-          { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
+          { text: '学习方法', link: '/pages/f2a556/' },
+          { text: '面试心得', link: '/pages/aea6571b7a8bae86/' },
+          { text: '心情杂货', link: '/pages/baaa02/' },
+          { text: '实用技巧', link: '/pages/9a7ee40fc232253e/' },
         ],
       },
       { text: '关于', link: '/about/' },
