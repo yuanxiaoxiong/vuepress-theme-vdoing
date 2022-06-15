@@ -72,6 +72,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: 'Flutter学习笔记',
             items: [
               { text: '《Dart基础教程》', link: '/note/dart/' },
+              { text: '《Flutter实战·第二版》', link: '/note/flutter/' },
             ],
           },
         ],
