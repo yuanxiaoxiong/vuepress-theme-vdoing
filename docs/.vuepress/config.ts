@@ -39,6 +39,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '学习笔记',
             items: [
+              { text: '《Android 源码设计模式解析与实战》', link: '/pages/9e7cdf/' },
               { text: '《Android开发艺术探索》', link: '/pages/9e7cdf/' },
               { text: '《APP研发录》', link: '/pages/9e7cdf/' },
               { text: '《Java编程思想》', link: '/pages/9e7cdf/' },
